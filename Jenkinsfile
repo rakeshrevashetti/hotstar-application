@@ -67,7 +67,7 @@ pipeline{
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name hotstar -p 3000:3000 acecloudacademy/hotstar:latest'
+                sh 'docker run -d --name hotstar -p 3000:3000 rakeshrr443/hotstar:latest'
             }
         }
 
