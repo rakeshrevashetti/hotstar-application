@@ -67,7 +67,7 @@ pipeline{
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name hotstar -p 3001:3000 shwwetark/hotstar:latest'
+                sh 'docker run -d --name hotstar -p 3001:3000 shwetark/hotstar:latest'
             }
         }
 
