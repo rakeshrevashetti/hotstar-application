@@ -3,7 +3,7 @@ variable "instance_name" {
 }
 
 variable "key_name" {
-  default = "hydra"                  # Names of key in aws
+  default = "project"                  # Names of key in aws
 }
 
 
