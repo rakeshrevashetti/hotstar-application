@@ -67,7 +67,7 @@ pipeline{
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name hotstar -p 4000:3000 rakeshrr443/hotstar2:latest'
+                sh 'docker run -d --name hotstar44 -p 4000:3000 rakeshrr443/hotstar2:latest'
             }
         }
 
